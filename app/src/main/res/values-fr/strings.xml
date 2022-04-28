@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Plans de yoga</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">La langue</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_slidetrial">slidetrial</string>
+
+    <string name="Beginners">DÉBUTANTES</string>
+    <string name="yogafor">YOGA POUR</string>
+    <string name="challenge">DÉFI 7x4</string>
+    <string name="setgoal">FIXER UN OBJECTIF</string>
+    <string name="achieving">Fixer des objectifs pour atteindre les objectifs</string>
+    <string name="strength">FORCE</string>
+    <string name="flexibility">LA FLEXIBILITÉ</string>
+    <string name="reduce">RÉDUIRE LE STRESS</string>
+    <string name="balance">ÉQUILIBRE</string>
+    <string name="concentration">CONCENTRATION</string>
+    <string name="yogato">YOGA À</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resttime">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/resting" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        app:srcCompat="@drawable/black_gradient1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ticker.views.com.ticker.widgets.circular.timer.view.CircularView
+            android:id="@+id/circular_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:m_arc_stroke_color="#ffffff"
+            app:m_arc_margin="0"
+            app:m_cicle_stroke_width="6"
+            app:m_circle_radius="70"
+            app:m_circle_stroke_color="#1BBF00"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="105dp"
+            android:onClick="skip"
+            android:text="SKIP"
+            android:textColor="#1BBF00"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check"
+            android:text="Button" />
+
+    </FrameLayout>
+</RelativeLayout>

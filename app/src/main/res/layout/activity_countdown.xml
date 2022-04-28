@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".countdown">
+
+    <ticker.views.com.ticker.widgets.circular.timer.view.CircularView
+        android:id="@+id/circular_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:m_circle_radius="100"
+        app:m_cicle_stroke_width="25"
+        app:m_arc_stroke_color="@android:color/white"
+        app:m_circle_stroke_color="@color/colorPrimary"
+        />
+
+</RelativeLayout>

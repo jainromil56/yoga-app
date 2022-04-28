@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">योग की योजना</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">भाषा</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_slidetrial">slidetrial</string>
+
+    <string name="Beginners">शुरुआत के लिए</string>
+    <string name="yogafor">योग</string>
+    <string name="challenge">7x4 चुनौती</string>
+    <string name="setgoal">एक लक्ष्य निर्धारित करें</string>
+    <string name="achieving">लक्ष्य प्राप्ति के लिए लक्ष्य निर्धारित करें</string>
+    <string name="strength">शक्ति के लिए</string>
+    <string name="flexibility">लचीलापन के लिए</string>
+    <string name="reduce">तनाव कम करने के लिए</string>
+    <string name="balance">संतुलन के लिए</string>
+    <string name="concentration">एकाग्रता के लिए</string>
+    <string name="yogato">योग</string>
+</resources>

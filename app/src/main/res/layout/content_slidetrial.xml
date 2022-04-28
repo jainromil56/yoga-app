@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weeklayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fullbody">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="55dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/railway" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/black_gradient" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sidebar1"
+                    android:layout_width="23dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/sidebar" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/week1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="WEEK 1"
+                            android:textColor="#024556"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            app:fontFamily="sans-serif" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:columnCount="4"
+                        app:rowCount="2">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:onClick="snackbar">
+
+                            <ImageView
+                                android:id="@+id/image1"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text1"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image3"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text3"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image4"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text4"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image5"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text5"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image6"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text6"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image7"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text7"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <ImageView
+                            android:id="@+id/image8"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            app:layout_column="3"
+                            app:layout_row="1"
+                            app:srcCompat="@drawable/trophy2" />
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sidebar2"
+                    android:layout_width="23dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/sidebarsilver" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/week2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="WEEK 2"
+                            android:textColor="#995F5F5F"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            app:fontFamily="sans-serif" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:columnCount="4"
+                        app:rowCount="2">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image01"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text01"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image02"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text02"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image03"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text03"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image04"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text04"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image05"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text05"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image06"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text06"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image07"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text07"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <ImageView
+                            android:id="@+id/image08"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            app:layout_column="3"
+                            app:layout_row="1"
+                            app:srcCompat="@drawable/trophy2" />
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sidebar3"
+                    android:layout_width="23dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/sidebarsilver" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/week3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="WEEK 3"
+                            android:textColor="#995F5F5F"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            app:fontFamily="sans-serif" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:columnCount="4"
+                        app:rowCount="2">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image001"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text001"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image002"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text002"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image003"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text003"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image004"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text004"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image005"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text005"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image006"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text006"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image007"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text007"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <ImageView
+                            android:id="@+id/image008"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            app:layout_column="3"
+                            app:layout_row="1"
+                            app:srcCompat="@drawable/trophy2" />
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="170dp">
+
+                <ImageView
+                    android:id="@+id/sidebar4"
+                    android:layout_width="23dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/sidebarsilver" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/week4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:text="WEEK 4"
+                            android:textColor="#995F5F5F"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            app:fontFamily="sans-serif" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:columnCount="4"
+                        app:rowCount="2">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image0001"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text0001"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image0002"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text0002"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image0003"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text0003"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image0004"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text0004"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image0005"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text0005"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image0006"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text0006"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/image0007"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/btn_style" />
+
+                            <TextView
+                                android:id="@+id/text0007"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#2E4600"
+                                android:textSize="20dp" />
+                        </FrameLayout>
+
+                        <ImageView
+                            android:id="@+id/image0008"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            app:layout_column="3"
+                            app:layout_row="1"
+                            app:srcCompat="@drawable/trophy2" />
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#00880A"
+            android:onClick="setgo"
+            android:text="GET STARTED!"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
